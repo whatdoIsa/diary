@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+📚 구현한 기능
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✔ 일기장 작성하기
+✔ 일기장 상세조회 하기(일기장 내용과 감정 이모티콘)
+✔ 일기 정렬(최근 일기장, 제일 마지막에 작성한 일기장)
+✔ 일기 내용, 감정 이모티콘 수정하기
+✔ 작성했던 일기 삭제하기
+✔ 월별로 작성한 일기 조회하기
+📔 메인화면
 
-## Available Scripts
+작성한 일기를 조회하는 화면입니다.
 
-In the project directory, you can run:
+CreatePlan
 
-### `yarn start`
+작성된 일기가 있다면 최근과 제일 오래된 순으로 정렬을 할 수 있습니다.
+저장된 일기가 없다면 새로운 일기를 작성할 수 있고 저장된 일기가 있다면 내용을 수정할 수 있습니다.
+헤더 영역의 버튼을 조작하여 월별로 작성한 일기를 나눠서 볼 수 있습니다.
+📝 일기 작성 화면
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+새로운 일기를 작성하는 화면입니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+CreatePlan
 
-### `yarn test`
+첫 화면에서는 자동으로 오늘 날짜가 지정되며 날짜 선택도 가능합니다.
+오늘의 감정을 이모티콘으로 저장하고 일기를 작성할 수 있습니다.
+📝 일기 수정, 삭제 화면
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+작성한 일기를 수정, 삭제하는 화면입니다.
 
-### `yarn build`
+CreatePlan
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+기존에 작성된 일기의 내용, 날짜, 감정 이모티콘을 수정할 수 있습니다.
+현재 일기를 수정하는 화면에서 일기를 삭제할 수도 있습니다.
+📖 일기 상세 조회 화면
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+작성한 일기의 내용, 감정 이모티콘을 상세 조회할 수 있는 화면입니다. CreatePlan
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+작성했던 날짜, 감정 이모티콘, 작성했던 일기 내용을 하나의 화면에서 모두 조회할 수 있습니다.
